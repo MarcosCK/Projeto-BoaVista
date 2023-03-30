@@ -1,0 +1,655 @@
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
+}
+
+body {
+  font-family: "Lexend", sans-serif;
+}
+
+.nome-edificio {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+
+.logo-vitacon {
+  width: 6em;
+  background: #ffffff;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.informacoes-foms-add {
+  position: absolute;
+  margin-left: 25%;
+  margin-top: 3%;
+}
+
+.text-form {
+  color: white;
+}
+
+.titulo-ed {
+  font-size: 56px;
+}
+
+.desc-ed {
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+.img-section {
+  width: 800px;
+  height: 500px;
+}
+
+.section-apresentacao {
+  background-image: url(novo-projeto-\(4\)_834.jpg);
+  width: 100%;
+  height: 80%;
+  position: absolute;
+}
+
+.section-apresentacao-form {
+  width: 20em;
+  background: #ffffff;
+  padding: 15px 40px 90px 40px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin-left: 60%;
+  margin-top: 3%;
+  height: 600px;
+}
+
+.section-apresentacao-form-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.Saiba-mais-txt {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #737573;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.interesse {
+  padding-top: 40px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper {
+  width: 80%;
+  height: 100%;
+}
+
+.enviar-btn {
+  margin-top: 80px;
+  border: none;
+  background: white;
+  border: 3px solid red;
+  cursor: pointer;
+  border-radius: 15px;
+  padding: 14px;
+  width: 280px;
+  color: red;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  margin-left: 25px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+  transition: 1s linear;
+}
+
+.quero-investir {
+  background: red;
+  width: 200px;
+  height: 50px;
+  color: white;
+  align-items: center;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 16px 24px;
+  border: none;
+  cursor: pointer;
+  transition: 1s linear;
+  border-radius: 10px;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.input-style {
+  margin-top: 30px;
+  width: 100%;
+  padding: 20px 0px 20px 10px;
+  border: 1px solid #737573;
+  border-radius: 3px;
+  text-align: left center;
+  border-radius: 10px;
+}
+
+.input-style:hover {
+  background: rgba(black, 0.04);
+  box-shadow: inset 0 -1px 0 rgba(black, 0.5);
+}
+
+.Moradia {
+  margin-right: 3em;
+}
+
+.input-radio {
+  padding-top: 10px;
+  color: #737573;
+}
+
+.interesse {
+  margin-top: 20px;
+  color: #737573;
+}
+
+.radios {
+  display: flex;
+  margin-top: 20px;
+}
+::placeholder {
+  font-size: 15px;
+  text-align: left;
+  color: #1f201f9d;
+}
+
+.section-two-plantas {
+  margin-top: 7em;
+  margin-left: 10%;
+  border-radius: 40px;
+  background: #1f201f;
+  width: 80%;
+  height: auto;
+}
+
+.section-plantas-containers {
+  display: flex;
+  margin-left: 15%;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 400px;
+}
+
+.descricao-container {
+  margin-right: 100px;
+}
+
+.textos-metros-container {
+  color: white;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.texto-descricao-container {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.text-container {
+  position: relative;
+}
+
+.img-studio {
+  width: 100%;
+  height: 100%;
+}
+
+.img-dormitorio {
+  width: 100%;
+  height: 100%;
+}
+
+.textos-metros-container {
+  margin-bottom: 10px;
+}
+
+.section-main-informacoes-empreendimento {
+  display: flex;
+}
+
+.section-investidoresall {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.section-informacoes-empreendimento {
+  display: flex;
+  width: 80%;
+}
+.section-empreendimento {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+}
+
+.housi-icon {
+  padding: 30px;
+}
+
+.descricao-empreendimento {
+  font-weight: bold;
+  font-size: 20px;
+  color: #1f201fd0;
+  margin-top: 25px;
+}
+
+.icones-empreendimento {
+  width: 100px;
+  background: #1f201fd0;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+}
+
+.section-galeria {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img-slide {
+  width: 350px;
+  height: 350px;
+  box-shadow: 0px 6px 6px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  border: 5px solid rgba(109, 109, 109, 0.096);
+}
+
+.text-galeria {
+  font-size: 60px;
+  font-weight: 400;
+  font-weight: 100;
+  margin-bottom: 80px;
+}
+
+.section-images {
+  display: flex;
+}
+
+.reset-galeria-images-principal {
+  margin-top: 20px;
+  width: 500px;
+  height: 500px;
+  margin-left: 17px;
+  margin-right: 17px;
+}
+
+.reset-galeria-images {
+  margin-top: 50px;
+  width: 400px;
+  height: 400px;
+  transition: 1s;
+}
+
+.reset-galeria-images:hover {
+  width: 470px;
+  height: 470px;
+
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+}
+
+.imagem-360-local {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  width: 100%;
+}
+
+.imagem-360 {
+  width: 80%;
+  height: 100%;
+}
+
+.areas-comunds-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.img-comuns-img-img {
+}
+
+.areas-comuns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.swiper-button-prev .swiper-rtl .swiper-button-next {
+}
+
+.footer {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: #1f201f;
+  width: 100%;
+  height: 70%;
+}
+
+.maps {
+  width: 49%;
+  display: flex;
+  justify-content: left;
+  padding-left: 30px;
+}
+
+.maps-lign {
+  width: 100%;
+
+  box-shadow: 0 8px 10px 0 rgba(255, 255, 255, 0.281);
+}
+
+.logo-vitacon-white {
+  padding-top: 10%;
+}
+
+.descricoes-vitacon {
+  width: 700px;
+  margin-left: 35px;
+}
+
+.desc-vitacon-p {
+  color: white;
+}
+
+.pq-investir {
+  display: flex;
+  justify-content: center;
+  margin-top: 8%;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+}
+
+.pq-infos {
+  color: #737573;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.investir-desc {
+  width: 1000px;
+  text-align: left;
+  font-family: "Lexend", sans-serif;
+  margin-bottom: 80px;
+}
+
+.investir-desc h2 {
+  color: #1f201f;
+}
+
+.parceiros {
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.parceiros h2 {
+  margin-left: 180px;
+  font-size: 35px;
+}
+
+.lista-parceiros {
+  margin-top: 70px;
+  width: 100%;
+  height: 100%;
+}
+
+.icone-parceiros {
+  width: 120px;
+  height: 120px;
+}
+
+@media screen and (max-width: 1366px) {
+  .titulo-ed {
+    font-size: 35px;
+  }
+
+  .desc-ed {
+    font-size: 20px;
+  }
+
+  .img-slide {
+    width: 250px;
+    height: 280px;
+  }
+
+  .section-apresentacao {
+    width: 1336px;
+    height: 750px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .informacoes-foms-add {
+    margin-left: 15%;
+  }
+
+  .section-apresentacao-form {
+    margin-left: 55%;
+  }
+
+  .titulo-ed {
+    font-size: 55px;
+  }
+  .investir-desc {
+    margin-left: 0%;
+    width: 80%;
+  }
+
+  .investir-desc h2 {
+    font-size: 35px;
+  }
+
+  .pq-infos {
+    font-size: 18px;
+  }
+
+  .desc-ed {
+    font-size: 18px;
+  }
+
+  .img-slide {
+    width: 250px;
+    height: 280px;
+  }
+  .areas-comunds-img {
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .informacoes-foms-add {
+    display: none;
+  }
+
+  .section-apresentacao-form {
+    margin-left: 15.8em;
+  }
+
+  .section-plantas-containers {
+    margin-left: 10%;
+  }
+
+  .img-studio {
+    width: 80%;
+  }
+
+  .section-informacoes-empreendimento {
+    width: 100%;
+  }
+
+  .img-dormitorio {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .textos-metros-container {
+    margin-bottom: 20px;
+  }
+
+  .titulo-ed {
+    font-size: 50px;
+  }
+
+  .investir-desc {
+    margin-left: 2%;
+  }
+
+  .investir-desc h2 {
+    font-size: 30px;
+  }
+
+  .pq-infos {
+    font-size: 15px;
+  }
+
+  .desc-ed {
+    font-size: 18px;
+  }
+
+  .img-slide {
+    width: 180px;
+    height: 200px;
+  }
+
+  .img-comuns-img-img {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .informacoes-foms-add {
+    margin-left: 12%;
+    display: none;
+  }
+
+  .section-apresentacao-form {
+    margin-left: 8%;
+  }
+
+  .section-plantas-containers {
+    display: block;
+    height: 700px;
+    margin-left: 0%;
+  }
+
+  .img-studio {
+    width: 70%;
+  }
+
+  .section-informacoes-empreendimento {
+    width: 100%;
+    display: block;
+  }
+
+  .img-dormitorio {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .textos-metros-container {
+    margin-bottom: 20px;
+  }
+
+  .titulo-ed {
+    font-size: 50px;
+  }
+
+  .investir-desc {
+    margin-left: 2%;
+    width: 80%;
+  }
+
+  .investir-desc h2 {
+    font-size: 23px;
+  }
+
+  .pq-infos {
+    font-size: 13px;
+  }
+
+  .desc-ed {
+    font-size: 18px;
+  }
+
+  .img-slide {
+    width: 180px;
+    height: 200px;
+  }
+  .areas-comunds-img {
+  }
+
+  .img-comuns-img-img {
+  }
+
+  .footer {
+    display: block;
+    align-items: center;
+    height: auto;
+  }
+
+  .maps {
+    width: 88%;
+    height: 20%;
+  }
+
+  .maps-lign {
+    margin-top: 40px;
+  }
+
+  .descricoes-vitacon {
+    margin-top: 50px;
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .section-apresentacao-form {
+    margin-left: 1%;
+  }
+}
